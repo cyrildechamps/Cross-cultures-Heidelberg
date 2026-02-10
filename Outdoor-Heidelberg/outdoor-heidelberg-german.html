@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+
+<script>
+function openTab(evt, tabName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+
+<head>
+       <link rel="stylesheet" href="style.css" media="all">
+       <script src="MainJavascript.js" async></script>
+       <title>
+            Outdoor Heidelberg
+       </title>
+</head>
+
+
+
+
+
+<body style="background-color:powderblue;">
+        <p>            
+            <p>last update: february 2026
+            <h3>Website noch im Aufbau!</h3>
+	<br>
+	<a href=".\outdoor-heidelberg.html">Englische Version</a>.
+	<br>
+            <h1 style="color:blue;" align="center">Outdoor Heidelberg</h1>
+	<br>
+            <h2 style="color:blue;"align="center">ALLES IN EINEM: Sport & Natur – Sprachen – Freundschaften knüpfen – Neue Kulturen entdecken</h2>
+        </p>
+
+<br>
+
+
+<img  align="center"src=".\FotoHeidelberg.jpg" alt="" width="30%" height="30%">
+
+
+
+
+
+<br>
+<br>
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Presentation')">Präsentation</button>
+  <button class="tablinks" onclick="openTab(event, 'About me')">Über mich</button>
+  <button class="tablinks" onclick="openTab(event, 'Events')">Unsere events</button>
+  <button class="tablinks" onclick="openTab(event, 'Our Rules')">Unsere Regeln</button>
+  <button class="tablinks" onclick="openTab(event, 'Contact')">Kontakt</button>
+</div>
+
+
+
+
+
+
+
+
+<div id="Presentation" class="tabcontent" style="display:block">
+        <br>
+	<h2 style="color:blue;"> Präsentation:</h2>
+	<h3>Einfach und freundlich</h3>
+        <p>Wir <b>wandern oder radeln </b>ein paar Stunden in der Region Heidelberg, essen und trinken gemeinsam, 
+           unterhalten uns und kehren zufrieden nach Hause zurück. <b>Keine Mitgliedschaft</b>.
+
+        <p>Wir sind eine <b>gemeinnützige Interessengemeinschaft</b> (ähnlich einer privaten Freundesgruppe).
+        <p>Im Sommer planen wir möglicherweise auch eine Kanutour, dies ist aber noch nicht entschieden.
+
+
+
+	<br>
+        <br>
+	<img  align="center"src=".\Konigstuhl.jpg" alt="" width="30%" height="30%">
+	<br>
+        
+        <h3>Konzept</h3>
+        <p> Wir organisieren an einigen Wochenenden eine Wanderung oder Radtour. Die <b>Anmeldung erfolgt ganz einfach per E-Mail</b> (siehe Seite „Kontakt“). 
+        <p> Den Treffpunkt erhalten Sie anschließend per E-Mail. Alle Erklärungen des Organisationsteams sind auf <b>Englisch</b>, 
+            aber in kleinen Gruppen können Sie jede <b>beliebige Sprache</b> sprechen. 
+        <p> <b>Ideal für Ausländer, die sich hier integrieren</b>, Deutsch lernen und neue Freundschaften knüpfen möchten. <b>Ideal auch für Deutsche</b>,
+		 die andere Sprachen sprechen und neue Kulturen kennenlernen möchten. Wir haben Teilnehmer aller Altersgruppen.
+	<br>
+        <br>
+	<img  align="center"src=".\Galery17.jpeg" alt="" width="30%" height="30%">
+        <br>
+        <br>
+	<h3>Unsere Regeln</h3>
+	<p> Mit Ihrer Anmeldung zu einer Veranstaltung erklären Sie sich <b>mit unseren Regeln einverstanden</b>. Bitte lesen Sie diese sorgfältig im Abschnitt <b>„Unsere Regeln“</b> durch.
+</div>
+
+
+
+
+
+
+<div id="About me" class="tabcontent" style="display:none">
+	<h3 style="color:blue;">About me</h3>
+	<br>
+	<img  align="center"src=".\FotoCyril.png" alt="" width="30%" height="30%">
+        <br>
+
+	<p>Mein Name ist Cyril Dechamps. Ich bin ein deutch-französischer Ingenieur und arbeite für ein internationales Unternehmen. 
+	<p>Ich bin 55 Jahre alt. Seit meinem 20. Lebensjahr organisiere ich Veranstaltungen. Ich spreche Englisch, Französisch, Deutsch, Spanisch und Japanisch. 
+	<p>Ich habe eine tolle Hündin namens Panda, die mich überallhin begleitet. Ich gehöre zu einer internationalen Familie. 
+	<p>In meiner Freizeit koche und male ich gern, schaue Fußball, Rugby und Radsport im Fernsehen, mag Musik der 80er und Karaoke. Ich engagiere mich ehrenamtlich, unterhalte mich gern und liebe Projekte 		und Aktivitäten mit anderen Menschen in familiärer Atmosphäre. Melden Sie sich also gern bei mir.
+
+	<p>Bitte beachten Sie, dass auf dieser Website vom „Organisationsteam“ oder „wir“ die Rede ist. Aktuell bin ich allein. Es ist aber sehr wahrscheinlich, dass bald weitere Mitglieder hinzukommen.
+
+	<br>
+	<p><i>Panda !!!</i></p>
+	<img  align="center"src=".\Galery1.jpg" alt="" width="30%" height="30%">
+</div>
+
+
+
+
+<div id="Events" class="tabcontent" style="display:none">
+	<h3 style="color:blue;">Events</h3>
+	<br>
+	<p><b>Gilt für alle Veranstaltungen</b>: Um sich für eine Veranstaltung anzumelden, senden Sie uns einfach eine <b>kurze E-Mail</b> (siehe Kontaktseite). Mit jeder Anmeldung <b>akzeptieren Sie 			automatisch unsere Regeln</b>. 	<p>Bitte lesen Sie die Seite <b>„unsere Regeln“</b> sorgfältig durch.
+	<p>Der Treffpunkt wird den angemeldeten Teilnehmern anschließend per E-Mail zugesandt.
+
+	<p>Bitte beachten Sie, dass die <b>Sicherheit jedes Teilnehmers für uns höchste Priorität</b> hat. Veranstaltungen können daher kurzfristig (1–2 Tage vorher) abgesagt werden, falls das Wetter oder andere 			Bedingungen gefährlich oder unangenehm sind oder die Teilnehmerzahl nicht ausreicht. In diesem Fall benachrichtigen wir alle angemeldeten Teilnehmer per E-Mail und geben dies auch hier 			auf dieser Webseite bekannt.
+
+	<p>Die Teilnahme ist <b>kostenlos</b>. Wir freuen uns jedoch über eine kleine Spende (z. B. 2 EUR pro Teilnehmer), um unsere Kosten für Internetpräsenz und Werbung zu decken.	<br>
+	<br>
+	<br>
+	<img  align="center"src=".\Galery19.jpeg" alt="" width="30%" height="30%">
+	<br>
+
+	<br>
+	<h2>Sonntag,den 12. April 2026 am 10:30 </h2>
+	<h2>Wanderung zum Königstuhl</h2>
+	<p>Heidelberg - Molkenkur - Königstuhl panorama - Heidelberg Bismarkplatz
+	<p>Wir laufen langsam .... -> 2.5 stunden  (nicht schwer)
+	<br>
+	<br>
+	<img  align="center"src=".\hiketoKonigstuhl.jpg" alt="" width="30%" height="30%">
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<img  align="center"src=".\velo.jpg" alt="" width="30%" height="30%">
+	<br>
+        <br>
+	<h2>Sonntag, den 10. May 2026 um 11:00</h2>
+	<h2>Radtour Eberbach -> Heidelberg</h2>
+	<p>Eberbach - Hirschhorn-Neckargemund-Heidelberg
+	<p>Wir fahren langsam .... -> 2.5 Stunden  (flach)
+
+	<p>Wir fahren mit dem Zug zum Treffpunkt (30 Minuten von Heidelberg). Fahrräder können an Wochenenden in der Region kostenlos im Zug mitgenommen werden. In Neckargemund machen wir eine Pause, um 			gemeinsam etwas zu essen und zu trinken. 
+	<p>ebikes sind ok so lange Sie im selben Tempo wie die Gruppe fahren. 
+        <br>
+	<br>
+	<img  align="center"src=".\bicitour.jpg" alt="" width="15%" height="15%">
+	<br>
+</div>
+
+
+
+
+
+
+
+
+<div id="Our Rules" class="tabcontent" style="display:none">
+	<br>
+	<h3 style="color:blue;">Unsere Regeln:</h3>
+        <br>
+
+	<p>Mit Ihrer Anmeldung oder Teilnahme erklären Sie sich <b>mit unseren Regeln einverstanden</b>. Wir behalten uns das Recht vor, Personen auszuschließen, die sich nicht daran halten oder gegen die 			Interessen der Gruppe handeln.
+
+	<p>- Behandeln Sie alle Teilnehmenden mit Respekt, unabhängig von Herkunft, Geschlecht, Nationalität, sexueller Orientierung oder anderen Merkmalen.
+
+	<p>- Fotografieren Sie keine anderen Personen ohne deren Einverständnis.
+
+	<p>- Veröffentlichen Sie keine Fotos von unseren Veranstaltungen online oder in sozialen Medien. Wir werden diese ebenfalls nicht veröffentlichen.
+
+	<p>- Sagen Sie Ihre Teilnahme nicht kurzfristig ab, es sei denn, es liegt ein echter Notfall vor oder Sie sind krank.
+
+	<p>- Nehmen Sie nicht teil, wenn Ihr Gesundheitszustand dies nicht zulässt.
+
+	<p>- Verhalten Sie sich stets umsichtig und gefährden Sie weder sich selbst noch andere.
+
+	<p>- Tragen Sie stets angemessene Kleidung und Schuhe. Bringen Sie gegebenenfalls eine Schutzbrille oder andere Schutzausrüstung mit. Nehmen Sie außerdem ausreichend Wasser und Verpflegung für die 			Veranstaltung mit.
+
+
+	<p>- Aus organisatorischen und sicherheits Gründen kann die Anzahl der Teilnehmer begrenzt sein.
+
+	<p>- Im Falle eines Unfalls oder einer schweren Verletzung wird umgehend den Notruf angerufen. Tragen Sie für alle anderen Fälle immer die Telefonnummer einer Vertrauensperson bei sich, die Ihnen helfen 		kann. Falls Sie selbstständig nach Hause kommen können, gehen Sie bitte zu Fuß zum nächsten Bus- oder Bahnhof und nutzen Sie die öffentlichen Verkehrsmittel.
+
+	<p>- Bei Fahrradveranstaltungen gilt: Radfahren birgt Risiken für Sie und andere. Sie sollten Erfahrung im Radfahren auf trockenen und nassen Straßen haben. Nasse Straßen sind gefährlicher, da die 			Rutschgefahr höher und die Bremswirkung reduziert ist. Stellen Sie sicher, dass Sie sich sicher anpassen können. Kennen und befolgen Sie alle deutschen Verkehrsregeln. Achten Sie darauf, dass Ihr 		Fahrrad in gutem Zustand ist: Reifendruck korrekt, Bremsen funktionsfähig. Das Tragen eines Helms wird dringend empfohlen.
+
+	<p>- <b>Wichtig:</b> Unsere Community übernimmt <b>keine Haftung für Unfälle/Krankheit oder Schäden</b>. Alle Teilnehmenden sind selbst dafür verantwortlich, eine <b>in Deutschland gültige Kranken- und 		Haftpflichtversicherung zu haben</b>. Die Teilnahme erfolgt auf eigene Gefahr. Alle geltenden Gesetze sind zu beachten.
+
+ 
+	<br>
+	<br>
+	<img  align="center"src=".\FotoPanda.jpg" alt="" width="30%" height="30%">
+        <br>
+</div>
+
+
+
+
+<br>
+<div id="Contact" class="tabcontent" style="display:none">
+	<h3 style="color:blue;">Contact:</h3>
+
+	<p>Wenn Sie sich für eine Veranstaltung anmelden möchten oder Fragen haben, schreiben Sie uns einfach eine kurze freundliche E-Mail. Wir antworten schnell.
+	<p><b>E-Mail: outdoor.heidelberg@gmail.com</b>
+	<p>Wir verwenden Ihre E-Mail-Adresse ausschließlich zur Beantwortung Ihrer Anfragen. Ihre Daten werden von uns nicht anderweitig gespeichert oder verwendet. Sollten Sie Ihre E-Mail-Adresse aus unserem 		Postfach löschen lassen wollen, schreiben Sie uns bitte eine E-Mail. Wir werden dies umgehend veranlassen.
+	<br>
+	<img  align="center"src=".\heidelberg2.jpg" alt="" width="30%" height="30%">
+        <br>
+</div>
+
+
+
+
+
+	<br>
+
+	<h3 style="color:black;">Haftungsausschluss:</h3>
+</b>
+	<p>Wir stellen Links und Informationen lediglich zu allgemeinen Informationszwecken bereit. Wir haben keinen Einfluss auf externe Inhalte und übernehmen keine Verantwortung für 			Informationen oder Links auf externen Seiten.
+	<p>Die Nutzung erfolgt auf eigene Gefahr.
+	<p>Wir garantieren nicht, dass alle Informationen aktuell oder korrekt sind. Nutzer sollten die Angaben selbstständig überprüfen. Wir haften nicht für veraltete oder fehlerhafte Informationen.
+
+
+
+
+<br>
+<br>
+<i><h3>Impressum:</h3>
+    <p>Cyril Dechamps,
+       Postfach 110159,
+       69071 Heidelberg
+    <br>
+    <p><b>email: outdoor.heidelberg@gmail.com</b></i>
+
+
+</body>
+
+</html>
